@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 2px;
+    font-family: 'IBM Plex Sans Hebrew';
+}
+
+header{
+    position: relative;
+    width: 1220px;
+    height: 600px;
+
+    background: #FFFFFF;
+
+}
+h1{
+    position: absolute;
+left: 36.94%;
+right: 36.81%;
+top: 2%;
+bottom: 92.09%;
+
+font-family: 'IBM Plex Sans Hebrew';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 62px;
+display: flex;
+align-items: center;
+
+color: #052B8C;
+
+}
+ul{
+    position: absolute;
+left: 6.04%;
+right: 80.69%;
+top: -12%;
+bottom: 200%;
+
+font-family: 'IBM Plex Sans Hebrew';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #052B8C;
+
+}
+.main{
+
+    padding-left: 50px;
+    position: absolute;
+    position: absolute;
+    left: 4.38%;
+    right: 71.2%;
+    top: 25.2%;
+    bottom: 8.5%;
+    
+    background: #052B8C;
+    font-size: 16px;
+    font-weight: 200;
+    color: azure;
+}
+.sec{
+    padding-left: 50px;
+    position: absolute;
+    position: absolute;
+    left: 39.29%;
+    right: 36%;
+    top: 25.2%;
+    bottom: 8.5%;
+    color: azure;
+    
+    background: #052B8C;
+}
+.third{
+    padding-left: 50px;
+    position: absolute;
+    position: absolute;
+    left: 73.19%;
+    right: 2.58%;
+    top: 25.2%;
+    bottom: 8.5%;
+    color: azure;
+    
+    background: #052B8C;
+}
+.logo{
+    position: absolute;
+left: 90.47%;
+right: 0.49%;
+top: -1.66%;
+bottom: 87.99%;
+
+
+background: url(image.png);
+
+}

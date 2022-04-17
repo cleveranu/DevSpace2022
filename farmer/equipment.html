@@ -1,0 +1,89 @@
+
+<html>
+    <head>
+      <title>Agrel</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       <header class="text-green-600 body-font" style="user-select: auto;">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" style="user-select: auto;">
+    <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto" style="user-select: auto;">
+        <a href="../Ngo/ngo.html" class="mr-5 hover:text-gray-900" style="user-select: auto;">NGO/Consultant </a>
+        <a href="../login/login.html" class="mr-5 hover:text-gray-900" style="user-select: auto;">Sign in </a>
+        <a href="../WeatherApp/weather.html"class="mr-5 hover:text-gray-900" style="user-select: auto;">Weather App</a>
+         </nav>
+    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0" style="user-select: auto;">
+        <img src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6khv6EqxVNmxfIwXs1M3EMoAJtliUthvBo8fw8">
+        <span class="ml-3 text-xl" style="user-select: auto;"></span>
+      
+    </a>
+    <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0" style="user-select: auto;">
+
+    </div>
+  </div>
+  <hr>
+  <br>
+  <br>
+</header>
+<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="user-select: auto;">  Welcome to TO-BUY hub</h1>
+<p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="user-select: auto;"> We have added items you may want to your equipment to buy list, you may toggle the ones you have or delete them altogether. You can add the items you want in here. Our experts will get back to you when you save your list. </p>
+    
+           <div id="container">
+        <input placeholder="Add a task" class="add-task" id="add" data-helloWord="asdasdas"/>
+        <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+        <ul id="list">
+          <!-- <li>
+            <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+            <label for="task1">Buy groceries</label>
+            <img src="bin.svg" class="delete" data-id="12" />
+          </li> -->
+        </ul>
+      </div>
+      <hr>
+      <br>
+      <br>
+      <footer class="text-gray-600 body-font" style="user-select: auto;">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" style="user-select: auto;">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" style="user-select: auto;">
+    
+            <span class="ml-3 text-xl" style="user-select: auto;">AGREL</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" style="user-select: auto;">© 2022 — AGREL
+            <a href="" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank" style="user-select: auto;">@agrel</a>
+          </p>
+          
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" style="user-select: auto;">
+            <a class="text-gray-500" style="user-select: auto;">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" style="user-select: auto;"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500" style="user-select: auto;">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" style="user-select: auto;"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500" style="user-select: auto;">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" style="user-select: auto;"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" style="user-select: auto;"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500" style="user-select: auto;">
+             
+            </a>
+          </span>
+        </div>
+      </footer>
+
+
+      <script src="equip.js"></script>
+      <script type="text/javascript">
+         
+          CartApp.initialize();
+          </script>
+    </body>
+  </html>

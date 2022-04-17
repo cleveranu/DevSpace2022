@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agrel</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+
+    <header id="body-header">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="./farmer/home.html"> Farmer's Hub </a>
+                </li>
+                <!-- <li>
+                    <a href="./Ngo/ngo.html"> NGO  </a>
+                </li> -->
+                <li>
+                    <a href="./login/login.html"> Sign in  </a>
+                </li>
+                
+                <li>
+                    <a href="./buyer/buyers.html"> Buyer </a>
+                </li>
+                <!-- <li>
+                    <a href="#about"> Weather App </a>
+                </li> -->
+             
+                <li>
+                    <a href="#experience">How we help </a>
+                </li>
+                <li>
+                    <a href="#education">Reviews</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Feedback</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Welcome to Agrel</h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="data:image/jpeg;base64,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">
+            </div>
+
+            <div id="about-para">
+
+                <p>
+                    <span class="text-highlight">One stop solution </span>that connects farmers, NGOs, and agro-businesses to connect and grow.
+At Agrel, we aim to provide a platform that connects the agriculture business and eliminates the need for middle men.
+Assisting farmers in the <span class="text-highlight">protection and maintenance of their crops in the face of adverse weather</span>  and help them remain vigilant through a user-friendly product
+      </p>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span> How we help people</span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="http://www.dilasa.org/wp-content/uploads/2016/07/dilasaLogo.jpg">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Ngo and Consultants </h3>
+                     
+                        <p class="experience-description text-align-justify"> 
+                            Bridging the gap between farmers and buyers or NGOs and farmers. 
+                            We have partnered with Ngos like Swades Foundation and Dilasa Sanstha to help the farmers in getting the extra help that they need. The low-cost technical solutions provided by Dilasa help the farmers improve irrigation methods and practice mixed cropping. Dilasa has also created 7,650 self-help groups (SHGs) for women to encourage organic farming. The organisation also runs a farmers support centre to inform them about various government schemes.06
+                           
+                             </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Weather app </h3>
+                   
+                        <p class="experience-description text-align-justify"> <br> In 2021, extreme weather events wrought yet another distressing year for Indian farmers. Cyclone Tauktae and Cyclone Yaas wreaked havoc in several states in the first few months, especially in Odisha, West Bengal and Karnataka where lives and livelihoods were affected beyond redemption. 
+
+                            In July, floods in Maharashtra damaged standing crops. 
+                            
+                            This was followed by a 24 per cent nationwide rain deficit in August and 35 per cent excess rain in September. In October, heavy rains destroyed harvest-ready crops in many districts of Kerala.  Helping farmers maintain crops according to the weather conditions will help prevent excessive crop damage for farmers  </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://previews.123rf.com/images/ionutparvu/ionutparvu1612/ionutparvu161201595/67602926-buyer-stamp-sign-text-word-logo-blue-.jpg">
+                        </div>
+                        <h3 class="experience-designation m0 m-blue"> Buying options </h3>
+                      
+
+                        <p class="experience-description text-align-justify"><br> We provide a business-to-business (B2B) service between farmers and FoodTech companies, offering them contract farming (used by MNC like lays) so they can buy from us at comparitevely lower prices,
+                            We also provide a business-to-customer(B2C) service between farmers and buyers. </p>
+                    </div>
+                </div>
+
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- <section id="education">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-hand-paper"></i>
+                </span>
+                <span> Reviews </span>
+            </h1>
+
+            <div class="timeline" >
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                             <img src=""> 
+                        </div>
+                        <ul id="timeline1"> 
+
+                            <h3 class="experience-designation  m0 m-blue"> Ram Gopal Verma </h3>
+                           
+                            <p class="experience-description text-align-justify"> Great stuff had fun </p> 
+                            </ul>
+                      
+                    </div>
+                </div>
+                
+             
+                
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> -->
+
+    
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-book"></i>
+                </span>
+                <span> Feedback </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container" >
+               
+                  
+                </div>
+                <form onsubmit=" return feedback()">
+
+                    <div style="display: flex;flex-direction: column;">
+
+                    <label for="fname" > Name</label>
+                    <input id="input-name " name="name" type="text" placeholder="Your Name">
+                    <label for="email">Email</label>
+                    <input id="input-email" name="email" type="email" required placeholder="Your Email">
+                    <label for="message"> Message</label>
+                <textarea id="input-message" name="message" rows="2" cols=40 placeholder="Message"></textarea>
+                <div style="display: flex;justify-content: center;">
+                <input class="sub-btn" type="submit" value="submit" style="border: 2px solid black;background-color: white;cursor: pointer;width: 50%;">
+            </div>
+            </div>             
+            
+                
+                 
+                  </form>
+              
+                
+             
+            
+            
+                  <!-- <script src="form.js"></script>  -->
+        
+            </body>
+            </html>
+               
+                <div id="my-details-container">
+
+  
+                    <p> We appreciate you for taking time to give us feedback. Your feeback helps us improve and is crucial to our growth</p>
+
+                    <h3>  Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Vellore, Tamil Nadu, India</span>
+                    </div>
+                 
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>customersupport@agrel.in</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="horizontal-list">
+
+                    <li>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/Shreyaar12/Agrel-for-Devspace" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+    <script src="review.js"></script>
+    <script type="text/javascript">
+        // console.log(ReviewApp);
+        ReviewApp.initialize();
+        </script>
+              <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+              <script type="text/javascript">
+                  var jwt = localStorage.getItem('token');
+      
+        
+        // function feedback(event) {
+        //     event.preventDefault();
+        //     const name = document.getElementById('input-name').value;
+        //     const email = document.getElementById('input-email').value;
+        //     const message = document.getElementById('input-message').value;
+            
+        //     const xhttp = new XMLHttpRequest();
+        //     xhttp.open('POST', 'http://localhost:3000/api/v1/feedback/add');
+        //     xhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+        //     xhttp.send(JSON.stringify({
+        //         'name':name,
+        //         'email': email,
+        //         'message':message
+        //     }));
+        //     xhttp.onreadystatechange = function () {
+        //         if (this.readyState == 4) {
+        //             const objects = JSON.parse(this.responseText);
+        //             console.log(objects);
+        //             if (objects['status'] == 'ok') {
+        //                 localStorage.setItem('token', objects['token']);
+        //                 console.log(objects['token']);
+        //                 Swal.fire({
+        //                     text: objects['message'],
+        //                     icon: 'success',
+        //                     confirmButtonText: 'OK'
+                          
+        //                 }).then((result) => {
+        //                     if (result.isConfirmed) {
+        //                         window.location.href = '../WeatherApp/weather.html';
+        
+        //                     }
+        //                 });
+        //             } else {
+        //                 Swal.fire({
+        //                     text: objects['message'],
+        //                     icon: 'error',
+        //                     confirmButtonText: 'OK'
+        //                 });
+        //             }
+        //         }
+        //     };
+        //     return false;
+        // }
+        //       </script>
+
+</body>
+</html>
